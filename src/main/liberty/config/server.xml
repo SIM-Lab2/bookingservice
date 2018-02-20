@@ -4,9 +4,10 @@
   <featureManager>
     <feature>microProfile-1.0</feature>
     <feature>ejbLite-3.2</feature>
+    &lt;feature&gt;logstashCollector-1.0&lt;/feature&gt;
   </featureManager>
-
-  <!-- To access this server from a remote client add a host attribute to the following element, e.g. host="*" -->
+    
+      <!-- To access this server from a remote client add a host attribute to the following element, e.g. host="*" -->
   <httpEndpoint id="defaultHttpEndpoint"
                   host="*"
                   httpPort="9080"
